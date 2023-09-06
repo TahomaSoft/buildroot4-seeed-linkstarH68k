@@ -480,7 +480,7 @@ BR2_LINUX_KERNEL_GZIP=y
 # BR2_LINUX_KERNEL_ZSTD is not set
 BR2_LINUX_KERNEL_DTS_SUPPORT=y
 # BR2_LINUX_KERNEL_DTB_IS_SELF_BUILT is not set
-BR2_LINUX_KERNEL_INTREE_DTS_NAME="board/seeed/rk3568-linkstar-opc.dts"
+BR2_LINUX_KERNEL_INTREE_DTS_NAME="board/rockchip3568/seeed/linkstarh68/rk3568-linkstar-opc.dts"
 BR2_LINUX_KERNEL_CUSTOM_DTS_PATH=""
 # BR2_LINUX_KERNEL_DTB_KEEP_DIRNAME is not set
 BR2_LINUX_KERNEL_DTB_OVERLAY_SUPPORT=y
@@ -1298,9 +1298,10 @@ BR2_PACKAGE_FLASHROM_ARCH_SUPPORTS=y
 # rockchip-mali needs a glibc toolchain w/ C++, threads
 #
 BR2_PACKAGE_ROCKCHIP_RKBIN=y
-BR2_PACKAGE_ROCKCHIP_RKBIN_TPL_FILENAME="../../../../rk3568_ddr_1560MHz_v1.18.bin"
-BR2_PACKAGE_ROCKCHIP_RKBIN_BL31_FILENAME=""
+BR2_PACKAGE_ROCKCHIP_RKBIN_TPL_FILENAME="../../../../board/rockchip3568/seed/linkstarh68k/rk3568_ddr_1560MHz_v1.18.bin"
+BR2_PACKAGE_ROCKCHIP_RKBIN_BL31_FILENAME="../../../../board/rockchip3568/seed/linkstarh68k/rk3568_bl31_v1.28.elf"
 BR2_PACKAGE_ROCKCHIP_RKBIN_TEE_FILENAME=""
+
 
 #
 # rpi-userland needs a toolchain w/ C++, threads, dynamic library
