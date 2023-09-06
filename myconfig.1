@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot -g1c10fe78-dirty Configuration
+# Buildroot -g43597bd8 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOST_GCC_AT_LEAST_4_9=y
@@ -643,7 +643,7 @@ BR2_PACKAGE_PULSEAUDIO_HAS_ATOMIC=y
 # Compressors and decompressors
 #
 # BR2_PACKAGE_BROTLI is not set
-# BR2_PACKAGE_BZIP2 is not set
+BR2_PACKAGE_BZIP2=y
 
 #
 # lrzip needs a toolchain w/ wchar, threads, C++
@@ -665,7 +665,7 @@ BR2_PACKAGE_PULSEAUDIO_HAS_ATOMIC=y
 #
 BR2_PACKAGE_XZ=y
 # BR2_PACKAGE_ZIP is not set
-BR2_PACKAGE_ZSTD=y
+# BR2_PACKAGE_ZSTD is not set
 
 #
 # Debugging, profiling and benchmark
@@ -3753,7 +3753,7 @@ BR2_TARGET_UBOOT_VERSION="custom"
 BR2_TARGET_UBOOT_PATCH=""
 BR2_TARGET_UBOOT_USE_DEFCONFIG=y
 # BR2_TARGET_UBOOT_USE_CUSTOM_CONFIG is not set
-BR2_TARGET_UBOOT_BOARD_DEFCONFIG="rk3568"
+BR2_TARGET_UBOOT_BOARD_DEFCONFIG="evb-rk3568"
 BR2_TARGET_UBOOT_CONFIG_FRAGMENT_FILES=""
 BR2_TARGET_UBOOT_NEEDS_DTC=y
 BR2_TARGET_UBOOT_NEEDS_PYTHON3=y
