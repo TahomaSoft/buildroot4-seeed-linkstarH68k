@@ -1,0 +1,6 @@
+Script started on 2023-09-06 21:18:39-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="164" LINES="28"]
+]0;erikbeck@erik-manjaro-linux-xcompile:~[?2004h[01;32m[erikbeck@erik-manjaro-linux-xcompile[01;37m ~[01;32m]$[00m exit[2Pls[K[K[7mdiff linux-6.4.13.vanilla/arch/arm64/boot/dts/rockchip/ linux-6.4.13.cajeta/arch/arm64/boot/dts/rockchip/ --recursive > ke[27m[7mr[27m[7mnel-dtb-diff [27m[A[01;32m[erikbeck@erik-manjaro-linux-xcompile[01;37m ~[01;32m]$[00m diff linux-6.4.13.vanilla/arch/arm64/boot/dts/rockchip/ linux-6.4.13.cajeta/arch/arm64/boot/dts/rockchip/ --recursive > kernel-dtb-diff y d u 
+[?2004l]0;erikbeck@erik-manjaro-linux-xcompile:~[?2004h[01;32m[erikbeck@erik-manjaro-linux-xcompile[01;37m ~[01;32m]$[00m exit
+[?2004lexit
+
+Script done on 2023-09-06 21:19:11-04:00 [COMMAND_EXIT_CODE="1"]
