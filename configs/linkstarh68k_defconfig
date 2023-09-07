@@ -11,11 +11,11 @@ BR2_SYSTEM_DHCP="eth0"
 
 
 # Kernel
-BR2_LINUX_KERNEL_CONFIG_FRAGMENT_FILES="board/seeed/linkstarh68/linux-extras.fragment"
+BR2_LINUX_KERNEL_CONFIG_FRAGMENT_FILES="board/seeed/linkstarh68k/linux-extras.fragment"
 BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_USE_ARCH_DEFAULT_CONFIG=y
 BR2_LINUX_KERNEL_DTS_SUPPORT=y
-BR2_LINUX_KERNEL_INTREE_DTS_NAME="board/seeed/linkstarh68/rk3568-linkstar-opc"
+BR2_LINUX_KERNEL_INTREE_DTS_NAME="board/seeed/linkstarh68k/rk3568-linkstar-opc"
 BR2_LINUX_KERNEL_DTB_OVERLAY_SUPPORT=y
 
 # Host Packages
