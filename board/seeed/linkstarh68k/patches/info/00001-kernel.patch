@@ -1,3 +1,183 @@
+diff --git a/.config b/.config
+index d171de5d1..8d5c78ec7 100644
+--- a/.config
++++ b/.config
+@@ -325,7 +325,7 @@ CONFIG_ARCH_ROCKCHIP=y
+ # CONFIG_ARCH_VEXPRESS is not set
+ # CONFIG_ARCH_VISCONTI is not set
+ # CONFIG_ARCH_XGENE is not set
+-CONFIG_ARCH_ZYNQMP=y
++# CONFIG_ARCH_ZYNQMP is not set
+ # end of Platform selection
+ 
+ #
+@@ -1642,8 +1642,6 @@ CONFIG_PCIE_ROCKCHIP_HOST=m
+ CONFIG_PCI_XGENE=y
+ CONFIG_PCI_XGENE_MSI=y
+ # CONFIG_PCIE_XILINX is not set
+-# CONFIG_PCIE_XILINX_NWL is not set
+-# CONFIG_PCIE_XILINX_CPM is not set
+ 
+ #
+ # Cadence-based PCIe controllers
+@@ -1671,7 +1669,6 @@ CONFIG_PCIE_KIRIN=y
+ #
+ # Mobiveil-based PCIe controllers
+ #
+-# CONFIG_PCIE_MOBIVEIL_PLAT is not set
+ # end of Mobiveil-based PCIe controllers
+ # end of PCI controller drivers
+ 
+@@ -1830,13 +1827,6 @@ CONFIG_ARM_SMCCC_SOC_ID=y
+ # Tegra firmware driver
+ #
+ # end of Tegra firmware driver
+-
+-#
+-# Zynq MPSoC Firmware Drivers
+-#
+-CONFIG_ZYNQMP_FIRMWARE=y
+-# CONFIG_ZYNQMP_FIRMWARE_DEBUG is not set
+-# end of Zynq MPSoC Firmware Drivers
+ # end of Firmware Drivers
+ 
+ CONFIG_GNSS=m
+@@ -3563,7 +3553,6 @@ CONFIG_PINCTRL_ROCKCHIP=y
+ CONFIG_PINCTRL_SINGLE=y
+ # CONFIG_PINCTRL_STMFX is not set
+ # CONFIG_PINCTRL_SX150X is not set
+-CONFIG_PINCTRL_ZYNQMP=y
+ 
+ #
+ # Renesas pinctrl drivers
+@@ -3604,8 +3593,6 @@ CONFIG_GPIO_ROCKCHIP=y
+ CONFIG_GPIO_WCD934X=m
+ CONFIG_GPIO_XGENE=y
+ # CONFIG_GPIO_XILINX is not set
+-# CONFIG_GPIO_ZYNQ is not set
+-CONFIG_GPIO_ZYNQMP_MODEPIN=y
+ # CONFIG_GPIO_AMD_FCH is not set
+ # end of Memory mapped GPIO drivers
+ 
+@@ -4367,7 +4354,6 @@ CONFIG_V4L_MEM2MEM_DRIVERS=y
+ #
+ # Allegro DVT media platform drivers
+ #
+-# CONFIG_VIDEO_ALLEGRO_DVT is not set
+ 
+ #
+ # Amlogic media platform drivers
+@@ -4958,7 +4944,6 @@ CONFIG_FB_EFI=y
+ # CONFIG_FB_SMSCUFX is not set
+ # CONFIG_FB_UDL is not set
+ # CONFIG_FB_IBM_GXT4500 is not set
+-# CONFIG_FB_XILINX is not set
+ # CONFIG_FB_VIRTUAL is not set
+ CONFIG_XEN_FBDEV_FRONTEND=y
+ # CONFIG_FB_METRONOME is not set
+@@ -5667,7 +5652,6 @@ CONFIG_USB_DWC3_DUAL_ROLE=y
+ CONFIG_USB_DWC3_PCI=y
+ CONFIG_USB_DWC3_HAPS=y
+ CONFIG_USB_DWC3_OF_SIMPLE=y
+-CONFIG_USB_DWC3_XILINX=y
+ CONFIG_USB_DWC2=y
+ # CONFIG_USB_DWC2_HOST is not set
+ 
+@@ -6065,10 +6049,8 @@ CONFIG_EDAC_LEGACY_SYSFS=y
+ # CONFIG_EDAC_DEBUG is not set
+ CONFIG_EDAC_GHES=y
+ # CONFIG_EDAC_THUNDERX is not set
+-# CONFIG_EDAC_SYNOPSYS is not set
+ # CONFIG_EDAC_XGENE is not set
+ # CONFIG_EDAC_DMC520 is not set
+-# CONFIG_EDAC_ZYNQMP is not set
+ CONFIG_RTC_LIB=y
+ CONFIG_RTC_CLASS=y
+ CONFIG_RTC_HCTOSYS=y
+@@ -6203,7 +6185,6 @@ CONFIG_DMA_ACPI=y
+ CONFIG_DMA_OF=y
+ # CONFIG_ALTERA_MSGDMA is not set
+ # CONFIG_AMBA_PL08X is not set
+-# CONFIG_AXI_DMAC is not set
+ # CONFIG_BCM_SBA_RAID is not set
+ # CONFIG_DW_AXI_DMAC is not set
+ CONFIG_FSL_EDMA=y
+@@ -6451,7 +6432,6 @@ CONFIG_CLK_RK3568=y
+ CONFIG_CLK_RK3588=y
+ # CONFIG_XILINX_VCU is not set
+ # CONFIG_COMMON_CLK_XLNX_CLKWZRD is not set
+-CONFIG_COMMON_CLK_ZYNQMP=y
+ CONFIG_HWSPINLOCK=y
+ 
+ #
+@@ -6479,7 +6459,6 @@ CONFIG_PLATFORM_MHU=y
+ CONFIG_PCC=y
+ # CONFIG_ALTERA_MBOX is not set
+ # CONFIG_MAILBOX_TEST is not set
+-CONFIG_ZYNQMP_IPI_MBOX=y
+ CONFIG_IOMMU_IOVA=y
+ CONFIG_IOMMU_API=y
+ CONFIG_IOMMU_SUPPORT=y
+@@ -6514,7 +6493,6 @@ CONFIG_ARM_SMMU_V3=y
+ #
+ CONFIG_REMOTEPROC=y
+ # CONFIG_REMOTEPROC_CDEV is not set
+-# CONFIG_XLNX_R5_REMOTEPROC is not set
+ # end of Remoteproc drivers
+ 
+ #
+@@ -6595,9 +6573,6 @@ CONFIG_ROCKCHIP_PM_DOMAINS=y
+ #
+ # Xilinx SoC drivers
+ #
+-CONFIG_ZYNQMP_POWER=y
+-CONFIG_ZYNQMP_PM_DOMAINS=y
+-CONFIG_XLNX_EVENT_MANAGER=y
+ # end of Xilinx SoC drivers
+ # end of SOC (System On Chip) specific Drivers
+ 
+@@ -6774,7 +6749,6 @@ CONFIG_TI_AM335X_ADC=m
+ # CONFIG_TI_TSC2046 is not set
+ # CONFIG_VF610_ADC is not set
+ # CONFIG_XILINX_XADC is not set
+-# CONFIG_XILINX_AMS is not set
+ # end of Analog to digital converters
+ 
+ #
+@@ -7260,7 +7234,6 @@ CONFIG_PHY_ROCKCHIP_TYPEC=y
+ # CONFIG_PHY_ROCKCHIP_USB is not set
+ # CONFIG_PHY_SAMSUNG_USB2 is not set
+ # CONFIG_PHY_TUSB1210 is not set
+-# CONFIG_PHY_XILINX_ZYNQMP is not set
+ # end of PHY Subsystem
+ 
+ # CONFIG_POWERCAP is not set
+@@ -7314,7 +7287,6 @@ CONFIG_NVMEM_ROCKCHIP_EFUSE=y
+ # CONFIG_NVMEM_ROCKCHIP_OTP is not set
+ CONFIG_NVMEM_SPMI_SDAM=m
+ # CONFIG_NVMEM_U_BOOT_ENV is not set
+-# CONFIG_NVMEM_ZYNQMP is not set
+ 
+ #
+ # HW tracing support
+@@ -7342,8 +7314,6 @@ CONFIG_ALTERA_FREEZE_BRIDGE=m
+ CONFIG_FPGA_REGION=m
+ CONFIG_OF_FPGA_REGION=m
+ # CONFIG_FPGA_DFL is not set
+-# CONFIG_FPGA_MGR_ZYNQMP_FPGA is not set
+-# CONFIG_FPGA_MGR_VERSAL_FPGA is not set
+ # CONFIG_FPGA_MGR_MICROCHIP_SPI is not set
+ # CONFIG_FPGA_MGR_LATTICE_SYSCONFIG_SPI is not set
+ # CONFIG_FSI is not set
+@@ -7916,8 +7886,6 @@ CONFIG_CRYPTO_HW=y
+ # CONFIG_CRYPTO_DEV_QAT_C62XVF is not set
+ # CONFIG_CRYPTO_DEV_CAVIUM_ZIP is not set
+ # CONFIG_CRYPTO_DEV_ROCKCHIP is not set
+-# CONFIG_CRYPTO_DEV_ZYNQMP_AES is not set
+-# CONFIG_CRYPTO_DEV_ZYNQMP_SHA3 is not set
+ # CONFIG_CRYPTO_DEV_VIRTIO is not set
+ # CONFIG_CRYPTO_DEV_SAFEXCEL is not set
+ CONFIG_CRYPTO_DEV_CCREE=m
 diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchip/Makefile
 index 2d585bbb8..946e4a4f9 100644
 --- a/arch/arm64/boot/dts/rockchip/Makefile
