@@ -189,8 +189,9 @@ index 2d585bbb8..946e4a4f9 100644
 +dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3568-linkstar-opc.dtb
 +
 diff --git a/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dts b/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dts
-index e69de29bb..4243e2942 100644
---- a/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dts
+new file mode 100644
+index 000000000..4243e2942
+--- /dev/null
 +++ b/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dts
 @@ -0,0 +1,12 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
@@ -206,8 +207,9 @@ index e69de29bb..4243e2942 100644
 +};
 +
 diff --git a/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dtsi b/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dtsi
-index e69de29bb..bf7451fa3 100644
---- a/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dtsi
+new file mode 100644
+index 000000000..bf7451fa3
+--- /dev/null
 +++ b/arch/arm64/boot/dts/rockchip/rk3568-linkstar-opc.dtsi
 @@ -0,0 +1,673 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
